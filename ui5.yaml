@@ -1,0 +1,7 @@
+specVersion: "3.2"
+metadata:
+  name: sapui5fullcourse
+type: application
+framework:
+  name: SAPUI5
+  version: "1.121.1"
