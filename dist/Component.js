@@ -1,0 +1,2 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/model/json/JSONModel","sap/ui/Device"],function(e,t,i){"use strict";return e.extend("ui5.walkthrough.Component",{metadata:{manifest:"json",interfaces:["sap.ui.core.IAsyncContentCreation"]},init:function(){e.prototype.init.apply(this,arguments);let n={recipient:{name:"UI5"}};let o=new t(n);this.setModel(o);const s=new t(i);s.setDefaultBindingMode("OneWay");this.setModel(s,"device");this.getRouter().initialize()}})});
+//# sourceMappingURL=Component.js.map

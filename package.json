@@ -1,12 +1,15 @@
 {
   "devDependencies": {
-    "@ui5/cli": "^3.9.1"
+    "@ui5/cli": "^3.9.1",
+    "ui5-middleware-simpleproxy": "^3.2.16"
   },
   "name": "sapui5fullcourse",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "ui5 build --all --clean-dest",
+    "serve-dist": "ws --compress -d dist --open"
   },
   "keywords": [],
   "author": "",
